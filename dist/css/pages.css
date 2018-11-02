@@ -1,0 +1,25 @@
+
+.header_wrapper_center
+{font-size:16px;}
+
+
+.header_wrapper_center h1 {
+  font-size: 280%;
+  margin-left: 15px;
+}
+
+.header_wrapper_bottom {
+  height: 100px;
+  margin-top: 80px;
+}
+
+.maincontent
+{margin-bottom:20px;}
+
+@media screen and (max-width: 500px)
+{
+  .header_wrapper_bottom {
+    height: 30px;
+  }
+
+}

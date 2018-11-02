@@ -1,0 +1,23 @@
+
+.maincontent article
+{margin-bottom: 50px;}
+
+.maincontent article p
+{
+  line-height: 1.6;
+  margin-top: 30px;
+}
+.image_box img
+{width: 100%;margin: 0;margin-top: 15px;margin-bottom: 10px;}
+
+@media screen and (min-width: 800px)
+{
+  .maincontent article
+  {padding: 0;padding-left: 8%;}
+
+  .image_box img
+  {margin-top: 15px;}
+
+  .maincontent article
+  {font-size: 90%;}
+}

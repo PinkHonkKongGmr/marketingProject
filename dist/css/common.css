@@ -1,0 +1,505 @@
+header {
+  background-image: url(../../dist/img/headerFon.jpg);
+  color: white;
+}
+
+ button {
+  border-radius: 20px;
+  background: none;
+  border: 2px solid #ab7d28;
+}
+
+ul
+{list-style: none;}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">.header_wrapper_center_item1, .header_wrapper_center_item2 {
+  position: relative;
+  display: inline-block;
+  width: auto;
+}
+
+.header_wrapper_center_item2 {
+  margin-bottom: 40px;
+}
+
+.header_wrapper_center_item1::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 60%;
+  background: #ff4d00;
+  left: 40%;
+  bottom: 10%;
+  z-index: -5;
+}
+
+.header_wrapper_center_item2::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 60%;
+  background: #ff4d00;
+  right: 40%;
+  bottom: 10%;
+  z-index: -5;
+}
+
+.header_wrapper_center_item3 {
+  margin-bottom: 50px;
+}
+
+.header_wrapper_center_item4 button {
+  text-transform: uppercase;
+
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.hat_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 0;
+  align-items: center;
+}
+
+.header_logo {
+  /* width: 17.5%; */
+  text-transform: uppercase;
+  font-size: 200%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.header_logo p {
+  line-height: 0.5;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: inherit;
+  position: relative;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header_order_call {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_rightside_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+.phone_number {
+  min-width: 160px;
+  word-spacing: 4px;
+  font-weight: bolder;
+  display: flex;
+  position: relative;
+}
+
+.phoneicon
+{position: absolute; left:-40px;}
+
+.header_order_call {
+  /* width: 17.5%; */
+}
+
+.header_order_call button, .maincontent_wrapper_button_box a {
+  width: auto;
+  border-radius: 20px;
+  border: none;
+  background: #ab7d28;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header_wrapper_center {
+  margin: auto;
+  margin-top: 90px;
+  text-transform: uppercase;
+}
+
+.header_wrapper_center h1 {
+  font-size: 510%;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  line-height: 0.9;
+}
+
+.header_wrapper_center h2 {
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+.header_logo span {
+  color: #ab7d28;
+}
+
+.header_wrapper_center_item1, .header_wrapper_center_item2 {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  z-index: 0;
+}
+
+.header_wrapper_center_item2 {
+  margin-bottom: 40px;
+}
+
+.header_wrapper_center_item1::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 60%;
+  background: #ab7d28;
+  left: 40%;
+  bottom: 10%;
+  z-index: -1;
+}
+
+.header_wrapper_center_item2::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 60%;
+  background: #ab7d28;
+  right: 40%;
+  bottom: 10%;
+  z-index: -1;
+}
+
+.header_wrapper_center_item3 {
+  margin-bottom: 50px;
+}
+
+.header_wrapper_center_item4 button {
+  color: white;
+  border-radius: 20px;
+  background: none;
+  text-transform: uppercase;
+  border: 2px solid #ab7d28;
+}
+
+.header_wrapper_center_item4 {
+  margin-bottom: 180px;
+}
+
+.header_wrapper_bottom {
+  display: flex;
+  /* padding-left: 17.5%;
+  margin-right: 17.5%; */
+  flex-wrap: wrap;
+  margin: auto;
+  background: white;
+}
+
+.header_wrapper_bottom_item {
+  padding-top: 30px;
+  color: black;
+}
+
+.header_wrapper_bottom_item h3 {
+  color: #ab7d28;
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+.header_wrapper_bottom_item h4 {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* просто в наглую переьбю  */
+
+.row {
+  margin: 0;
+}
+
+/* Обычно у меня стандартный враппер в 1200 пикселей */
+
+.wrapper {
+  width: 100%;
+  max-width: 1268px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* делаем nowrap чтобы не разбивалось на 2-3 строки  */
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.nav ul li {
+  margin-right: 15px;
+}
+
+/* закоментил твой кусочек кода выше, и немного по другому сделал. Так получается меньше строк. */
+
+.nav a:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0%;
+  background: #ab7d28;
+  left: 50%;
+  top: -12px;
+  width: 0%;
+  transition: .3s ease-out;
+}
+
+.nav a:hover::before {
+  left: 0%;
+  width: 100%;
+}
+
+.header_logo, .header_order_call {
+  padding: 0 20px;
+}
+
+.header_wrapper_bottom {
+  position: relative;
+  z-index: 0
+}
+
+.header_wrapper_bottom::before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: -50%;
+  top: 0;
+  background: #fff;
+  z-index: -1
+}
+
+.header_wrapper_bottom_item {
+  padding-right: 65px;
+}
+
+.upbutton
+{position: fixed;
+right:45px;
+background: #121517;
+padding: 3px 5px;
+opacity: 0.9;
+font-size: 80%;
+}
+
+
+
+button, .maincontent_wrapper_button_box a {
+  font-size: 12px;
+  padding: 5px 35px;
+}
+
+.maincontent {
+  /* padding-left: 17.5%; */
+  flex-direction: row;
+  margin: auto;
+}
+
+.stripe
+{
+  border-top: 2px solid #ab7d28;
+}
+
+
+.humburger {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.humburger {
+  padding-top: 10%;
+}
+
+.line {
+  width: 100%;
+  border-top: 3px solid white;
+  margin-bottom: 25%;
+}
+
+.hide {
+  display: none;
+  opacity: 0;
+}
+
+.cross {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 13px;
+}
+
+.cross2 {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 13px;
+}
+
+footer
+{
+  background: #121517;
+  color:white;
+}
+
+.footer_Hat {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+
+.lowerfooter_wrapper
+{display: flex;justify-content: space-between;font-size: 10.5px;
+padding-top: 20px;padding-bottom: 20px;align-items: center;}
+
+.copyright
+{padding: .5rem 1rem;}
+
+.footer_line
+{border-top: 0.5px solid grey;}
+
+
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+  footer {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .nav a {
+    font-size: 14px;
+  }
+  .header_logo {
+    font-size: 25px;
+  }
+  .hat_wrapper {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .nav a {
+    font-size: 16px;
+  }
+}
+
+@media screen and(min-width: 1600px) {
+  .nav a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .hat_wrapper {
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .header_logo {
+    margin-bottom: 20px;
+  }
+  .nav a {
+    font-size: 14px;
+  }
+  .header_wrapper_center {
+    font-size: 12px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .phone_number {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .nav a {
+    font-size: 16px;
+  }
+  .header_wrapper_center {
+    font-size: 8px;
+  }
+  .header_rightside_wrapper {
+    display: block;
+  }
+
+  .phone_number {
+    margin-left: 40px;
+  }
+  .upbutton
+  {display: none;}
+  body {
+    font-size: 12px;
+  }
+  nav {
+    position: fixed !important;
+    z-index: 100;
+    margin-top: -100px;
+    width: 100%;
+  }
+  .navbar-toggler {
+    border-color: none !important;
+    background: #121517 !important
+  }
+  .navbar-toggler-icon {
+    background: none !important;
+  }
+  #navbarNavTop {
+    background: #121517;
+    padding: 20px;
+    font-size: 120%;
+    text-transform: uppercase;
+  }
+  .header_order_call {
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: -5px;
+  }
+  .phone_number {
+    font-size: 130%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header_wrapper_center {
+    font-size: 7px;
+  }
+}

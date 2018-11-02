@@ -1,0 +1,72 @@
+
+
+.project {
+  padding-top: 30px;
+
+}
+
+.name {
+  font-weight: bolder;
+  position: relative;
+}
+
+.name p {
+  margin-top: 3px;
+}
+
+.subname {
+  position: absolute;
+  top: -9px;
+  font-size: 120%;
+  text-transform: uppercase;
+}
+
+.discription
+{padding-left: 0;padding-right: 0;  margin-bottom: 70px;}
+
+.discription ul
+{margin-bottom: 40px;}
+
+.discription ul li {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+
+
+.discription li {
+  margin-left: 25px;
+  position: relative;
+}
+
+.discription li::after {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #ab7d28;
+  left: -25px;
+  top: 10px;
+}
+
+.discription img
+{width: 100%;margin: 0;}
+
+
+@media screen and (max-width: 774px)
+{
+  .discription li::after {
+    top: 7px;
+  }
+}
+
+@media screen and (max-width: 374px)
+{
+  .header_wrapper_center
+  {font-size:12px;}
+
+  .discription li::after {
+    top: 5px;
+  }
+}

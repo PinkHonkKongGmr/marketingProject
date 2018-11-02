@@ -1,0 +1,204 @@
+
+.thought {
+  color: #ab7d28;
+  display: flex;
+  padding-top: 30px;
+}
+
+.about {
+  padding-top: 80px;
+}
+
+.aboutUs {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.morales {
+  width: 257px;
+  box-sizing: content-box;
+  padding-top: 30px;
+}
+
+.quote {
+  position: relative;
+  padding-top: 30px;
+}
+
+.quoteSign {
+  position: absolute;
+  top: 0;
+}
+
+.maincontent_info_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.maincontent_workscheme {
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.maincontent_workscheme_number {
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  font-size: 300%;
+  color: #ab7d28;
+  padding-top: 0;
+}
+
+.how {
+  margin-bottom: 40px;
+}
+
+.maincontent_picture_box img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.maincontent_wrapper_button_box a {
+  padding: 5px 20px;
+}
+
+
+
+.morales {
+  box-sizing: border-box;
+}
+
+
+.maincontent_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.maincontent_wrapper_button_box {
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.maincontent_specialization {
+  position: relative;
+  background: #121517;
+  color: white;
+}
+
+.specialization_img_absolute {
+  position: absolute;
+  width: 30%;
+  z-index: -1;
+  bottom: 100px;
+  right: 60%;
+}
+
+.specialization_img_absolute img {
+  width: 100%;
+  height: auto;
+}
+
+.maincontent_employees_about p {
+  margin-top: 40px;
+}
+
+.img_absolute {
+  position: absolute;
+  left: 500px;
+  top: -100px;
+  width: 50%;
+}
+
+.img_absolute img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1200px) {
+
+  .maincontent_info p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .maincontent_info strong {
+    font-size: 110%;
+  }
+  .maincontent_info strong p:last-child {
+    font-size: 120%;
+  }
+  .maincontent_specialization {
+    padding: 110px 0;
+    margin-top: 100px;
+    margin-bottom: 180px;
+    font-size: 150%;
+    line-height: 2;
+    z-index: -2;
+  }
+  .specialization_img_absolute {
+    left: -23%;
+    width: 55%;
+    z-index: -1;
+    bottom: -150%;
+  }
+  .specialization_img_absolute p {
+    font-weight: 500;
+    font-size: 4800%;
+    text-transform: uppercase;
+    background-image: url(../../dist/img/ch.jpg);
+    background-repeat: round;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+  }
+  .maincontent_employees_about {
+    margin-top: 200px;
+    line-height: 1.6;
+    font-size: 120%;
+    margin-bottom: 25px;
+  }
+  .maincontent_picture_box {
+    position: relative;
+  }
+  .maincontent_picture_box img {
+    position: absolute;
+    width: auto;
+    height: 90%;
+    top: 35px;
+  }
+  .maincontent_workscheme strong {
+    font-size: 120%;
+  }
+}
+
+
+
+@media screen and (max-width: 780px) {
+
+  .maincontent_info_wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+.maincontent_info_wrapper {
+  position: relative;
+}
+
+.img_absolute {
+  position: absolute;
+  left: 500px;
+  top: 0;
+  width: auto;
+  z-index: -1;
+  left: initial;
+  right: 0;
+}
+
+.maincontent_specialization {
+  padding: 90px 0;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
